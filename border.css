@@ -1,0 +1,41 @@
+p{
+    /* border-width: 10px  ;
+    border-style: double dotted dashed groove;
+    border-color: red blue yellow orange; */
+
+    border: 3px solid red;
+    /* border-top-left-radius: 50%; */
+    box-shadow: 10px 10px 10px rgb(171, 24, 24);
+
+    padding: 20px;
+    margin: 50px;
+
+    /* width: 400px;
+    height: 300px; */
+
+    overflow: auto;
+
+    /* float: right; */
+
+
+    box-sizing: border-box;
+
+    text-align: justify;
+    /* text-align-last: left; */
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 30px;
+    text-shadow: 0 0 4px yellow;
+    zoom:50%;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness:3px;
+
+    font-style: italic;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-indent:50px ;
+    text-transform: uppercase;
+}
