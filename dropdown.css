@@ -1,0 +1,17 @@
+.down img{
+    width: 50%;
+}
+.drop h1{
+    background-color: wheat;
+}
+
+.down{
+    display: none;
+}
+.drop{
+    width: 50%;
+}
+
+.drop:hover + .down{
+    display: inline;
+}
