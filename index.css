@@ -1,0 +1,26 @@
+/* universal selector */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* element selector */
+ol{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+/* id selector */
+#demo{
+    text-decoration: line-through;
+}
+
+/* class selector */
+.task{
+    text-transform: uppercase;
+}
+
+/* grouping selector */
+h1.task{
+    color: yellowgreen;
+}
