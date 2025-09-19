@@ -1,0 +1,37 @@
+/* descendant selector */
+div h1{
+    color: rgb(225, 236, 11);
+}
+
+/* child selector */
+div > h1{
+    background-color: rgba(244, 159, 1, 0.644);
+}
+
+/* adjacent selector */
+div + h1{
+    background-color: #39d3215f;
+}
+
+/* general sibling selector */
+
+div ~ p{
+    background-color:hsl(0, 86%, 25%);
+}
+
+
+body{
+    height: 100vh;
+    /* background-color: yellowgreen;
+    background-image: url(https://i.pinimg.com/736x/26/76/3d/26763d481172f5dc599d151570b38ded--pixel-art-perler-beads.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-origin: padding-box;
+    -webkit-backdrop-filter: brightness(50%);
+    backdrop-filter: brightness(50%); */
+
+    background:teal url(https://i.pinimg.com/736x/26/76/3d/26763d481172f5dc599d151570b38ded--pixel-art-perler-beads.jpg) no-repeat center;
+    background-size: cover;
+}
