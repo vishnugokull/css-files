@@ -1,0 +1,32 @@
+.main div{
+    border: 1px solid red;
+    padding: 10px;
+}
+
+/*.item1{
+    grid-area: a;
+}
+.item2{
+    grid-area: b;
+}
+.item3{
+    grid-area: c;
+}
+.item4{
+    grid-area: d;
+}
+.item5{
+    grid-area: e;
+}
+.item6{
+    grid-area: f;
+}*/
+
+.main{
+    display: grid;
+   grid-template-columns: auto 200px;
+grid-template-rows: auto 100px 200px;
+
+}
+
+

@@ -1,0 +1,64 @@
+table,th,td{
+    border: 2px solid red;
+}
+
+tr:nth-child(odd){
+  color: blue;
+}
+
+tr:nth-child(odd){
+    background-color: red;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 5px;
+
+    color:aquamarine
+    
+}
+ 
+button:hover{
+    background-color: blueviolet;
+    color: black;
+
+}
+
+button:active{
+background-color: brown;
+}
+
+input{
+    border:10px;
+    accent-color: green;
+}
+
+input :focus{
+ outline: auto;
+}
+
+::first-letter{
+    font-size: xx-large;
+}
+::first-line{
+    text-transform: uppercase;
+}
+::before{
+    content: "hai";
+}
+
+::after{
+    content: "thanks";
+    color: yellow;
+}
+
+::selection{
+    background-color: orange;
+    color: black;
+}
+
+body{
+    cursor: se-resize;
+}

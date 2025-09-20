@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-style: oblique;
+}
+#demo{
+    text-decoration: line-through;
+
+}
+.task{
+    text-align: end;
+}
+h1,.task{
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,36 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   height: 100vh;
+   background-image: url(https://www.w3schools.com/w3images/forestbridge.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: white;
+}
+
+.nav h1{
+   font-weight: lighter;
+   text-transform: capitalize;
+   font-size: x-large;
+}
+
+.main{
+   height:80vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   line-height: 80px;
+}
+
+.main h1{
+   font-size: 70px;
+}
+
+hr{
+   width: 200px;
+}

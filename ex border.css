@@ -1,0 +1,16 @@
+p{
+    border-style: double;
+    border-width: 10px;
+    border-color: brown;
+    border-bottom-left-radius: 20px;
+     padding: 20px;
+     margin: 20px;
+     border-bottom-left-radius: 20% ;
+    box-shadow: 10px 10px 100 red;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-shadow: 10%;
+    letter-spacing: 10px;
+
+}

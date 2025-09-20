@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    position: fixed;
+    overflow: hidden;
+  background-color: #f44336; /* Red */
+  display:  inline;
+  width: 100%;
+}
+nav ul{
+  display: block;
+  color: white;
+  padding:20px;
+}
+
+Li,h1,ul{
+    display: inline-block;  
+}
+
+ul{
+    word-spacing: 10px;
+    font-size: x-large;
+}
+
+li:hover{
+       background-color: white;
+       color: black;
+       cursor: pointer;
+}
+
+header{
+background-color: orangered;
+color: white;
+padding: 150px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+line-height: 50px;
+}
+
+.main h1{
+    font-size: 55px;
+    margin: 40px;
+}
+
+.main p{
+    font-size: 25px;
+}
+
+.main button{
+    font-size: 20px;
+    margin: 25px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+.product{
+    display: flex;
+    padding: 70px; 
+}
+
+.product  img{
+    width: 250px;
+    padding: 60px;  
+}
+
+.product p, h5{
+font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 20px;  
+}
+
+.product h2{
+    font-size: 32px;
+}
+
+.content h2{
+    font-size: 32px;
+}
+
+.content{
+    display: flex;
+    padding: 70px;
+    background-color: lightgray;
+}
+
+.content img{
+    width: 250px;
+    padding: 60px;
+}
+
+.content p, h5{
+    font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.about p{
+    background-color: gray;
+    color: white;
+    padding: 80px;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.address{
+    color: grey;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.footer,a{
+color: gray;
+}
+
+
+
+
+
+
+
+
