@@ -1,0 +1,95 @@
+table,th,td{
+    border: 1px solid red;
+}
+
+tr:nth-child(odd){
+    background-color: red;
+}
+
+tr:hover{
+    background-color: antiquewhite;
+}
+
+tr:active{
+    background-color: aquamarine;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: red;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+button:active{
+    background-color: yellowgreen;
+}
+
+a:link{
+    text-decoration: none;
+    color: green;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: black;
+}
+
+a:active{
+    color: violet;
+}
+
+
+input{
+    border: none;
+    accent-color: green;
+}
+
+input:focus{
+    outline: none;
+    
+}
+
+input[type="text"]{
+    background-color: red;
+}
+
+li::marker{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::first-letter{
+    font-size: xx-large;
+}
+::first-line{
+    text-transform: uppercase;
+}
+::before{
+    content: "hai";
+}
+
+::after{
+    content: "thanks";
+    color: yellow;
+}
+
+::selection{
+    background-color: orange;
+    color: black;
+}
+
+body{
+    cursor: cell;
+}
